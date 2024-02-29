@@ -1,7 +1,7 @@
 ul li{
     display: inline-block; 
     border: 3px onset rgb(0, 0, 0);
-    width: 150px;
+    width: auto;
     list-style-type: none;
     padding: 15px 5px 15px 5px;
     margin-top: 0;  
