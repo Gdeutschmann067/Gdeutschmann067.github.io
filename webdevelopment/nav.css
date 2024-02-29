@@ -1,9 +1,11 @@
 ul li{
     display: inline-block; 
     border: 3px onset rgb(0, 0, 0);
-    width: 50px;
+    width: 150px;
     list-style-type: none;
     padding: 15px 5px 15px 5px;
     margin-top: 0;  
     text-align: center; 
+    margin-right: 20 px;
+    margin-left: 20px;
 };
