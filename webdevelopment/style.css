@@ -1,6 +1,5 @@
 
 
-
 h1{
 color:#5c010c;
 }
@@ -9,7 +8,8 @@ a{
 background-color: #e1e1e1;
 border: medium outset #707070;
 padding: 5px; 
-margin: auto; 
+margin-left: auto; 
+margin-right: auto;
 width: 50%;
 text-align: center;
 }
