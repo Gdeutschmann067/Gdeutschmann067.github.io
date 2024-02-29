@@ -1,5 +1,6 @@
 
 
+
 h1{
 color:#5c010c;
 }
@@ -8,5 +9,7 @@ a{
 background-color: #b3b3b3;
 border: medium outset #707070;
 padding: 5px; 
-margin: 5px; 
+margin: auto; 
+width: 50%;
+text-align: center;
 }
