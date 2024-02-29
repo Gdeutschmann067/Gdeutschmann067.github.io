@@ -3,3 +3,10 @@
 h1{
 color:#5c010c;
 }
+
+a{
+background-color: #747474;
+border: medium outset #000000;
+padding: 10px; 
+margin: 10px; 
+}
