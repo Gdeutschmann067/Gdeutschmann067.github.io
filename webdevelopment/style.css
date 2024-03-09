@@ -1,4 +1,6 @@
-
+body{
+    text-align: center;
+}
 
 h1{
 color:#5c010c;
@@ -14,9 +16,34 @@ width: 50%;
 text-align: center;
 }
 
+
 #bio{
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-left: auto;
+    padding-right: auto;
+   
+    text-align: left;
+}
+
+#intro{
     margin-left: 15%;
     margin-right: 15%;
-    text-align: left;
-    
+    padding: auto;
+    text-align: center;
+}
+
+#firstbio>p::first-letter{
+    font-size: 20px ;
+    font-weight: bold;
+    color: #5c010c;
+}
+
+#firstbio
+{
+    text-indent: -1em;
+}
+#subbio
+{
+    text-indent: 1em;
 }
