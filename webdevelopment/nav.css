@@ -1,7 +1,9 @@
 nav ul {
     list-style-type: none;
-    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
     padding: 0;
+    
     }
     nav>ul li {
     width: 150px; /*this is important to set so our drop-down doesn't go across the page*/
