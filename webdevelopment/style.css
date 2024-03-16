@@ -16,6 +16,12 @@ width: 50%;
 text-align: center;
 }
 
+img{
+    width: 500px;
+    height: auto;
+    border-radius: 5px;
+    border-color: black;
+}
 
 #bio{
     margin-left: 25%;
