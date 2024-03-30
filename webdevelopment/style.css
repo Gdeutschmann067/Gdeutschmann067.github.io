@@ -1,144 +1,144 @@
-body{
-    text-align: center;
-    margin: 0;
-    padding: 0;
+body {
+  text-align: center;
+  margin: 0;
+  padding: 0;
   height: 100vh;
 }
 
-h1{
-color:#000000;
-font-size: 50px;
-font-weight: bold;
+h1 {
+  color: #000000;
+  font-size: 50px;
+  font-weight: bold;
 }
 
 
-#pp{
-    max-width: 25%;
-    height: auto;
-    border-radius: 5px;
-    border-color: black;
+#pp {
+  max-width: 25%;
+  height: auto;
+  border-radius: 5px;
+  border-color: black;
 }
 
-#bio1,#bio2,#bio3,#bio4{
-    margin-left: 25%;
-    margin-right: 25%;
+#bio1,
+#bio2,
+#bio3,
+#bio4 {
+  margin-left: 25%;
+  margin-right: 25%;
 
-   width: 50%;
-   text-align: center;
+  width: 50%;
+  text-align: center;
 
 }
 
-#intro1{
+#intro1 {
   margin-left: 15%;
-    margin-right: 15%;
-    text-align: center;
+  margin-right: 15%;
+  text-align: center;
 }
 
-#intro2{
-    margin-left: 15%;
-    margin-right: 15%;
-    text-align: center;
+#intro2 {
+  margin-left: 15%;
+  margin-right: 15%;
+  text-align: center;
 }
 
-#firstbio>p::first-letter{
-    font-size: 20px ;
-    font-weight: bold;
-    color: #b10015;
+#firstbio>p::first-letter {
+  font-size: 20px;
+  font-weight: bold;
+  color: #b10015;
 }
 
-#firstbio
-{
-    text-indent: -1em;
-}
-#subbio
-{
-    text-indent: 1em;
+#firstbio {
+  text-indent: -1em;
 }
 
+#subbio {
+  text-indent: 1em;
+}
 
-  
 
-  header {
-    grid-auto-rows: 100%;
-    height: 10%;
-    width: 100%;
 
-  }
-  
-  nav {
-    grid-auto-rows: 100%;
-    height: 25%;
-    width: 100%;
 
-  }
-  
-  main {
-    grid-auto-rows: 100%;
-    height: 60%;
-    padding-left: 15%;
-    padding-right: 15%;
-    
-  }
-  
-  
-  footer {
+header {
+  grid-auto-rows: 100%;
+  height: 10%;
+  width: 100%;
 
-    grid-auto-rows: 100%;
-    position: relative;
-    height: 15%;
-    font-size: 15px;
-   text-align: center;
-    margin: 25% 0;
-   
-  }
+}
 
-  .column{
-    color: white;
+nav {
+  grid-auto-rows: 100%;
+  height: 25%;
+  width: 100%;
 
-  }
-  #p1, #p2, #p3{
-    width: 300px;
-    height: 50%;
-    border-radius:  5px;
-  
+}
 
-  }
-  @media only screen and (min-width: 640px){
+main {
+  grid-auto-rows: 100%;
+  height: 60%;
+  padding-left: 15%;
+  padding-right: 15%;
 
-  .column{
+}
+
+
+footer {
+
+  grid-auto-rows: 100%;
+  position: relative;
+  height: 15%;
+  font-size: 15px;
+  text-align: center;
+  margin: 25% 0;
+
+}
+
+.column {
+  color: white;
+
+}
+
+#p1,
+#p2,
+#p3 {
+  width: 300px;
+  height: 50%;
+  border-radius: 5px;
+
+
+}
+
+@media only screen and (min-width: 640px) {
+
+  .column {
     padding: 16px;
-	  margin: 5px;
-	  background-color: #1c1c1c;
+    margin: 5px;
+    background-color: #1c1c1c;
   }
 
-  #ProjectContent{
+  #ProjectContent {
     display: grid;
-	  grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     height: 400px;
     padding: 25px 25px 25px 25px;
 
-	  text-align: center;
+    text-align: center;
   }
 }
 
-  @media only screen and (max-width: 640px) {
-    .column{
-      padding: 16px;
-      margin: 5px;
-      background-color: #1c1c1c;
-    }
-  
-    #ProjectContent{
-      display: grid;
-      grid-template-rows: 1fr 1fr 1fr;
-      padding: 25px 25px 25px 25px;
-      text-align: center;
-      height: 400px;
-    }
+@media only screen and (max-width: 640px) {
+  .column {
+    padding: 16px;
+    margin: 5px;
+    background-color: #1c1c1c;
   }
 
-
-
-    
-
-    
+  #ProjectContent {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding: 25px 25px 25px 25px;
+    text-align: center;
+    height: 400px;
+  }
+}
