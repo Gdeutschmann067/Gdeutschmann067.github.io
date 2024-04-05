@@ -156,7 +156,7 @@ padding-right: 35%;
 
   font-family: Jura; /*this is where we give our font a name so we can use it!*/
   
-  src: url('webcontent/Jura-VariableFont_wght.ttf'); /*remember this is how we link to files in CSS!*/
+  src: url('/webcontent/Jura-VariableFont_wght.ttf'); /*remember this is how we link to files in CSS!*/
   
   }
 
