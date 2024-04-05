@@ -9,6 +9,7 @@ h1 {
   color: #000000;
   font-size: 50px;
   font-weight: bold;
+  font-family: 'Jura';
 }
 
 
@@ -143,3 +144,11 @@ footer {
     height: 400px;
   }
 }
+
+@font-face { 
+
+  font-family: Jura; /*this is where we give our font a name so we can use it!*/
+  
+  src: url('webcontent/Jura-VariableFont_wght.ttf'); /*remember this is how we link to files in CSS!*/
+  
+  }
