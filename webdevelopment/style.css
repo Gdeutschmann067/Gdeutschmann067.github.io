@@ -7,9 +7,9 @@ body {
 
 h1 {
   color: #000000;
-  font-size: 50px;
+  font-size: 45px;
   font-weight: bold;
-  font-family: Jura;
+  font-family: 'Jura';
 }
 
 
@@ -111,6 +111,13 @@ footer {
 
 }
 
+#edu{
+width: 30%;
+text-align: center;
+padding-left: 35%;
+padding-right: 35%;
+}
+
 @media only screen and (min-width: 640px) {
 
   .column {
@@ -151,4 +158,48 @@ footer {
   
   src: url('webcontent/Jura-VariableFont_wght.ttf'); /*remember this is how we link to files in CSS!*/
   
+  }
+
+  @media print{
+  
+    br{
+      display: none;
+    }
+
+    *{
+      background: transparent;
+      color: #000;
+      box-shadow: none;
+      text-shadow: none;
+      font-family: serif;
+    }
+    
+    nav, #resume{
+      display: none;
+    }
+
+    #edu {
+      font-size: 18px;
+      width: 100%;
+      padding: 5px 5px 5px 5px;
+    }
+
+    #bio{
+      font-size: 15px;
+      width: 100%;
+    }
+  
+    footer{
+      margin-top: 5px;
+    }
+
+    h1{
+      font-size: 25px;
+    }
+
+    body{
+      margin: 1in 1in 1in 1in;
+    }
+
+
   }
