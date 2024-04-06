@@ -14,7 +14,7 @@ h1 {
 
 
 #pp {
-  padding-top: 25px; 
+  padding-top: 25px;
   max-width: 25%;
   height: auto;
   border-radius: 5px;
@@ -66,7 +66,7 @@ header {
   grid-auto-rows: 100%;
   height: 10%;
   width: 100%;
-  
+
 }
 
 
@@ -94,8 +94,8 @@ footer {
   font-size: 15px;
   text-align: center;
   margin: 25% 0 0 0;
-background-image:url("/webcontent/footer.png");
-background-repeat: repeat-x;
+  background-image: url("C:/Users/gvd03/Desktop/webcontent/footer.png");
+  background-repeat: repeat-x;
 }
 
 
@@ -114,14 +114,15 @@ background-repeat: repeat-x;
 
 }
 
-#edu{
-width: 30%;
-text-align: center;
-padding-left: 35%;
-padding-right: 35%;
+#edu {
+  width: 30%;
+  text-align: center;
+  padding-left: 35%;
+  padding-right: 35%;
 }
 
-#email, #pnum{
+#email,
+#pnum {
   width: 20px;
   height: auto;
 
@@ -162,54 +163,57 @@ padding-right: 35%;
   }
 }
 
-@font-face { 
+@font-face {
 
-  font-family: Jura; /*this is where we give our font a name so we can use it!*/
-  
-  src: url('/webcontent/Jura (1)/Jura-VariableFont_wght.ttf'); /*remember this is how we link to files in CSS!*/
-  
+  font-family: Jura;
+  /*this is where we give our font a name so we can use it!*/
+
+  src: url('C:/Users/gvd03/Downloads/Jura (1)/Jura-VariableFont_wght.ttf');
+  /*remember this is how we link to files in CSS!*/
+
+}
+
+@media print {
+
+  br {
+    display: none;
   }
 
-  @media print{
-  
-    br{
-      display: none;
-    }
-
-    *{
-      background: transparent;
-      color: #000;
-      box-shadow: none;
-      text-shadow: none;
-      font-family: serif;
-    }
-    
-    nav, #resume{
-      display: none;
-    }
-
-    #edu {
-      font-size: 18px;
-      width: 100%;
-      padding: 5px 5px 5px 5px;
-    }
-
-    #bio{
-      font-size: 15px;
-      width: 100%;
-    }
-  
-    footer{
-      margin-top: 5px;
-    }
-
-    h1{
-      font-size: 25px;
-    }
-
-    body{
-      margin: 1in 1in 1in 1in;
-    }
-
-
+  * {
+    background: transparent;
+    color: #000;
+    box-shadow: none;
+    text-shadow: none;
+    font-family: serif;
   }
+
+  nav,
+  #resume {
+    display: none;
+  }
+
+  #edu {
+    font-size: 18px;
+    width: 100%;
+    padding: 5px 5px 5px 5px;
+  }
+
+  #bio {
+    font-size: 15px;
+    width: 100%;
+  }
+
+  footer {
+    margin-top: 5px;
+  }
+
+  h1 {
+    font-size: 25px;
+  }
+
+  body {
+    margin: 1in 1in 1in 1in;
+  }
+
+
+}
