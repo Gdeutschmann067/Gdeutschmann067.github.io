@@ -6,7 +6,7 @@ body {
 }
 
 h1 {
-  color: #000;
+  color: #000000;
   font-size: 45px;
   font-weight: bold;
   font-family: 'Jura';
@@ -66,8 +66,9 @@ header {
   grid-auto-rows: 100%;
   height: 10%;
   width: 100%;
-
+  
 }
+
 
 nav {
   grid-auto-rows: 100%;
@@ -92,9 +93,11 @@ footer {
   height: 15%;
   font-size: 15px;
   text-align: center;
-  margin: 25% 0;
-
+  margin: 25% 0 0 0;
+background-image:url("/webcontent/footer.png");
+background-repeat: repeat-x;
 }
+
 
 .column {
   color: white;
@@ -117,6 +120,13 @@ text-align: center;
 padding-left: 35%;
 padding-right: 35%;
 }
+
+#email, #pnum{
+  width: 20px;
+  height: auto;
+
+}
+
 
 @media only screen and (min-width: 640px) {
 
@@ -156,7 +166,7 @@ padding-right: 35%;
 
   font-family: Jura; /*this is where we give our font a name so we can use it!*/
   
-  src: url('/webcontent/Jura-VariableFont_wght.ttf'); /*remember this is how we link to files in CSS!*/
+  src: url('/webcontent/Jura (1)/Jura-VariableFont_wght.ttf'); /*remember this is how we link to files in CSS!*/
   
   }
 
