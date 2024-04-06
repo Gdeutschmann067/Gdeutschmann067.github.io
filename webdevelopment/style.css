@@ -196,7 +196,8 @@ footer {
   }
 
   nav,
-  #resume {
+  #resume,
+  embed{
     display: none;
   }
 
