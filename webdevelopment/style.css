@@ -94,7 +94,7 @@ footer {
   font-size: 15px;
   text-align: center;
   margin: 25% 0 0 0;
-  background-image: url("C:/Users/gvd03/Desktop/webcontent/footer.png");
+  background-image: url("/webcontent/footer.png");
   background-repeat: repeat-x;
 }
 
@@ -168,7 +168,7 @@ footer {
   font-family: Jura;
   /*this is where we give our font a name so we can use it!*/
 
-  src: url('C:/Users/gvd03/Downloads/Jura (1)/Jura-VariableFont_wght.ttf');
+  src: url('/webcontent/Jura (1)/Jura-VariableFont_wght.ttf');
   /*remember this is how we link to files in CSS!*/
 
 }
