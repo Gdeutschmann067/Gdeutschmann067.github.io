@@ -128,6 +128,14 @@ footer {
 
 }
 
+#email:hover,#pnum:hover{
+  width: 40px;
+  height: auto;
+  -webkit-transition: width 0.3s liner 0s;
+  transition: width 0.3s linear 0s;
+  z-index: 10;
+}
+
 
 @media only screen and (min-width: 640px) {
 
