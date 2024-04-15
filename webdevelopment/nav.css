@@ -24,7 +24,7 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     padding: 0 20px;
-    color: #b10015;
+    color: #3988ff;
     font-size: 1rem;
     font-weight: bold;
 }
@@ -56,11 +56,11 @@ nav ul li:hover ul {
 }
 
 nav ul li a:hover {
-    color: #b10015;
+    color: #3988ff;
 }
 
 nav ul li:hover ul a {
-    color: #b10015;
+    color: #3988ff;
 }
 
 nav ul li:hover ul li {
