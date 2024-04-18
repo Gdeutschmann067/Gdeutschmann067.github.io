@@ -30,8 +30,9 @@ h1 {
 
   width: 50%;
   text-align: center;
-
 }
+
+
 
 #intro1 {
   margin-left: 15%;
@@ -59,6 +60,61 @@ h1 {
   text-indent: 1em;
 }
 
+#con{
+  margin-top: 5%;
+  text-align: center;
+  text-decoration: underline;
+}
+#ref{
+  margin-top: 5%; 
+  text-align: center;
+  text-decoration: underline;
+}
+
+#tab{
+  width: 5px;
+}
+
+#tab1{
+  border: 3px solid black;
+  border-collapse: collapse;
+  width: 500px;
+  overflow: scroll;
+  margin-left: 25%;
+  tr:nth-child(even) { 
+    background-color: rgb(228, 228, 228); 
+  } 
+}
+
+#tab2
+{
+  border: 3px solid black;
+  border-collapse: collapse;
+  width: 1000px;
+  overflow: scroll;
+  tr:nth-child(even) { 
+    background-color: rgb(228, 228, 228); 
+  } 
+}
+
+table td, table th {
+  border: 1px solid black;
+  padding-left: 5px;
+  padding-right: 5px;
+  
+}
+
+thead{
+  color: #3988ff;
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -82,21 +138,21 @@ main {
   height: 60%;
   padding-left: 15%;
   padding-right: 15%;
-
 }
 
 
 footer {
-
+  color: white;
   grid-auto-rows: 100%;
   position: relative;
   height: 50px;
   font-size: 15px;
   text-align: center;
   margin: 25% 0 0 0;
-  background-image: url('/webcontent/footer.png');
+  background-image: url("/webcontent/footer.png");
   background-repeat: repeat-x;
 }
+
 
 
 .column {
@@ -135,6 +191,7 @@ footer {
   transition: width 0.3s linear 0s;
   z-index: 10;
 }
+
 
 
 @media only screen and (min-width: 640px) {
@@ -176,7 +233,7 @@ footer {
   font-family: Jura;
   /*this is where we give our font a name so we can use it!*/
 
-  src: url('/webcontent/Jura-VariableFont_wght.ttf');
+  src: url('/webcontent/Jura-(1)/Jura-VariableFont_wght.ttf');
   /*remember this is how we link to files in CSS!*/
 
 }
@@ -196,8 +253,7 @@ footer {
   }
 
   nav,
-  #resume,
-  embed{
+  #resume {
     display: none;
   }
 
