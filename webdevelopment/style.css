@@ -71,9 +71,6 @@ h1 {
   text-decoration: underline;
 }
 
-#tab{
-  width: 5px;
-}
 
 #tab1{
   border: 3px solid black;
@@ -107,15 +104,6 @@ table td, table th {
 thead{
   color: #3988ff;
 }
-
-
-
-
-
-
-
-
-
 
 
 header {
@@ -183,6 +171,38 @@ footer {
   height: auto;
 
 }
+
+input{
+  font-size: medium;
+  padding-left: 5px; 
+  padding-right: 5px;
+}
+
+#submit{
+  padding-top: 8px;
+}
+
+
+form{
+  margin-top: 5%;
+  background-color: rgb(237, 237, 237);
+  height: 150px;
+  width: 1000px;
+  overflow: scroll;
+}
+
+
+
+#form-title{
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+  color: black;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+
 
 #email:hover,#pnum:hover{
   width: 40px;
