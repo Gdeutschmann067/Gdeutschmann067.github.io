@@ -186,10 +186,13 @@ input{
 form{
   margin-top: 5%;
   background-color: rgb(237, 237, 237);
-  height: 150px;
-  width: 1000px;
+  height: 250px;
+  width: 500px;
   overflow: scroll;
+  margin-left: 25%;
 }
+
+
 
 
 
@@ -200,6 +203,10 @@ form{
   color: black;
   padding-top: 10px;
   padding-bottom: 5px;
+}
+
+.form-div{
+  padding-top: 10px; 
 }
 
 
