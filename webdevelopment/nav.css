@@ -74,15 +74,14 @@ nav ul li ul li {
     border-bottom: 1px solid white;
 }
 
-#hamburger,
-label {
+#hamburger, #ham {
     display: none;
 }
 
 
 @media only screen and (max-width: 640px) {
 
-    label {
+    #ham{
         height: 45px;
         display: block;
         cursor: pointer;
