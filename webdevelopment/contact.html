@@ -35,7 +35,7 @@ Developed: Apr 15, 2024
             <h1>Vince Deutschmann's Portfolio</h1>
         </header>
 
-        <label for="hamburger">&#9776;</label>
+        <label id="ham" for="hamburger">&#9776;</label>
         <input type="checkbox" id="hamburger">
         <nav id="NavBox">
 
@@ -119,30 +119,41 @@ Developed: Apr 15, 2024
             </div>
 
             <div style="overflow-x:auto;">
-                <form action="mailto:gvdx5h@missouri.edu" method="post" enctype="text/plain">
+                <form action="mailto:gvdx5h@missouri.edu?Subject=Contact%Form" method="post" enctype="text/plain">
                     <div id="form-title">
                         Contact Form
                     </div>
 
+                    <div class="form-div">
+                    <label for="fname">First Name:</label>
+                    <input id="fname" type="text" required>
+                    </div>
 
-                    <label>
-                        First Name:
-                    </label>
-                    <input id="fname" type="text">
+                    <div class="form-div">
+                    <label for="lname">Last Name:</label>
+                    <input id="lname" type="text" required>
+                    </div>
+                    
+                    <div class="form-div">
+                    <label for="mail">E-mail:</label>
+                    <input id="mail" type="email" required>
+                    </div>
 
-                    <label>
-                        Last Name:
-                    </label>
-                    <input id="lname" type="text">
+                    <div class="form-div">
+                    <label for="msg">Message:</label>
+                    <textarea></textarea>
+                    </div>
 
-                    <label>
-                        E-mail:
-                    </label>
-                    <input id="mail" type="text">
-                    <label>
-                        Message: 
-                    </label>
-                    <textarea>Enter your message here</textarea>
+                    
+
+                    
+                    
+
+                    
+                    
+
+                    
+                    
 
 
                     <div id="submit">
@@ -154,8 +165,8 @@ Developed: Apr 15, 2024
 
         </main>
 
-        <footer><b>Vince Deutschmann <img src="/webcontent/email.jpg" alt="Email" id="email">
-                Gvdx5h@umsystem.edu <img src="/webcontent/phone.png" alt="phone#" id="pnum">
+        <footer><b>Vince Deutschmann <img src="C:\Users\gvd03\Desktop\webcontent\email.jpg" alt="Email" id="email">
+                Gvdx5h@umsystem.edu <img src="C:\Users\gvd03\Desktop\webcontent\phone.png" alt="phone#" id="pnum">
                 (636) 686-8997 Copyright
                 Notice </b></footer>
 
