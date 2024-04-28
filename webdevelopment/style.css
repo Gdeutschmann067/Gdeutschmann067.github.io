@@ -137,7 +137,7 @@ footer {
   font-size: 15px;
   text-align: center;
   margin: 25% 0 0 0;
-  background-image: url("/webcontent/footer.png");
+  background-image: url("//webcontent/footer.png");
   background-repeat: repeat-x;
 }
 
@@ -221,6 +221,8 @@ form{
 
 
 
+
+
 @media only screen and (min-width: 640px) {
 
   .column {
@@ -237,13 +239,38 @@ form{
 
     text-align: center;
   }
+
+  .popup{
+    color:#3988ff;
+  }
+  .popuptext{
+  display: none;
+  margin-top: 100px;
+  background-color:#1c1c1c;
+  min-height: 100px;
+  height: auto;
+  margin: 100px 5px 5px 5px;
+  font-size: 15px;
+  
+  }
+  .popup>span{
+    padding: 10px 10px 10px 10px;
+  }
+  
+  .popup:hover{
+    .popuptext{
+      display: block; 
+      color: white;
+    }
+    }
 }
 
 @media only screen and (max-width: 640px) {
   .column {
     padding: 16px;
-    margin: 5px;
+    
     background-color: #1c1c1c;
+    margin: 200px 0px 0px 0px;
   }
 
   #ProjectContent {
@@ -253,6 +280,32 @@ form{
     text-align: center;
     height: 400px;
   }
+
+  .popup{
+    color:#1c1c1c;
+  }
+  .popuptext{
+  display: none;
+  margin-top: 100px;
+  background-color:#1c1c1c;
+  min-height: 100px;
+  height: auto;
+  margin: 100px 5px 5px 5px;
+  font-size: 15px;
+  
+  }
+  .popup>span{
+    padding: 10px 10px 10px 10px;
+    
+  }
+
+  
+  
+    .popuptext{
+      display: block;
+      color: white;
+    }
+  
 }
 
 @font-face {
