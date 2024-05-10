@@ -22,6 +22,13 @@ Developed: Feb 9, 2024
     <link rel="stylesheet" href="nav.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" type="image/png" href="/webcontent/V.png">
+    <script>
+
+        function myFunction() {
+          var popup = document.getElementById("myPopup");
+          popup.classList.toggle("show");
+        }
+        </script>
 </head>
 
 <body>
@@ -77,19 +84,21 @@ Developed: Feb 9, 2024
             <iframe width="560" height="315" src="https://www.youtube.com/embed/89__Lkm2AXs?si=b_yDlDWUDpnqGzUO" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             <br>
             <br>
-            <div id="edu">
-            <h3>Education:</h3>
-            <p><strong>BSCoE in Computer Engineering</strong><br>
-                <strong>BSCoE in Electrical Engineering</strong><br>
-                University of Missouri - Columbia<br>
-                Relevant Coursework: Algorithm Design and
-                Programming, Circuit Theory, Logic Systems,
-                Computer Organization, Assembly Language<br>
-                GPA: 3.2<br>
-                Expected Graduation May 2026<br>
-                Honors: Dean’s List: Fall 2022, Spring 2023, Fall 2023<br>
-                Clubs: Mizzou Club Racquetball - Vice President/Social Media Manager<br></p>
-        </div>
+           <div class="popup" onclick="myFunction()">Click Here to See my Education History!
+                <span class="popuptext" id="myPopup"><div id="edu">
+                    <h3>Education:</h3>
+                    <p><strong>BSCoE in Computer Engineering</strong><br>
+                        <strong>BSCoE in Electrical Engineering</strong><br>
+                        University of Missouri - Columbia<br>
+                        Relevant Coursework: Algorithm Design and
+                        Programming, Circuit Theory, Logic Systems,
+                        Computer Organization, Assembly Language<br>
+                        GPA: 3.2<br>
+                        Expected Graduation May 2026<br>
+                        Honors: Dean’s List: Fall 2022, Spring 2023, Fall 2023<br>
+                        Clubs: Mizzou Club Racquetball - Vice President/Social Media Manager<br></p>
+                </div></span>
+              </div>
         </main>
         <footer>Vince Deutschmann  <img src="/webcontent/email.jpg" alt="Email" id="email">
             <b>Gvdx5h@umsystem.edu</b> <img src="/webcontent/phone.png" alt="phone#" id="pnum">
