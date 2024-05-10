@@ -25,10 +25,11 @@ h1 {
 #bio2,
 #bio3,
 #bio4 {
-  margin-left: 25%;
-  margin-right: 25%;
+  margin-left: 5%;
+  margin-right: 5%;
 
-  width: 50%;
+  width: 90%;
+  font-size: 20px;
   text-align: center;
 }
 
@@ -38,12 +39,14 @@ h1 {
   margin-left: 15%;
   margin-right: 15%;
   text-align: center;
+  font-size: 50px;
 }
 
 #intro2 {
-  margin-left: 15%;
-  margin-right: 15%;
+ margin-left: 10%;
+  margin-right: 10%;
   text-align: center;
+  font-size: 30px;
 }
 
 #firstbio>p::first-letter {
